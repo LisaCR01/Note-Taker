@@ -38,6 +38,25 @@ app.post("/api/notes", (req, res) => {
   res.json(noteList);
 });
 
+//computer selects a note to delete based on the id. 
+app.delete("/api/notes/:id", (req, res) => {
+      let noteList = JSON.parse(fs.readFileSync("./db/db.json", "utf8"));
+      let noteId = (req.params.id).toString();
+    
+      //filter all notes that does not have matching id and saved them as a new array
+      //the matching array will be deleted
+      noteList = noteList.filter(selected =>{
+          return selected.id != noteId;
+      })
+    
+      //write the updated data to db.json and display the updated note
+      fs.writeFileSync("./db/db.json", JSON.stringify(noteList));
+      res.json(noteList);
+    });
+    //If any other page is asked for the computer routes to the index.html
+    app.get('*', (req, res) =>
+    res.sendFile(path.join(__dirname, '/public/index.html')));
+
 //computer says which port the local host is set to. 
   app.listen(PORT, () =>
   console.log(`App listening at http://localhost:${PORT} 🚀`)
