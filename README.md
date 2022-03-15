@@ -23,7 +23,7 @@ In this project I modified starter code to create an application that can be use
 ## Landing Page
 ![Screenshot of Landing Page](./Assets/landing-page.png?raw=true)
 ## Notes Page
-![Screenshot of Notes Page](Assets/notes-page.png?raw=true)
+![Screenshot of Notes Page](./Assets/notes-page.png?raw=true)
 
 ### Link to Deployed Application
 [Link to Heroku Deployed Application](https://limitless-brook-10698.herokuapp.com/)
