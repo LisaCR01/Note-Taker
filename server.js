@@ -36,6 +36,7 @@ app.post("/api/notes", (req, res) => {
   //write the updated data to db.json
   fs.writeFileSync("./db/db.json", JSON.stringify(noteList));
   res.json(noteList);
+window.location.reload();
 });
 
 //computer selects a note to delete based on the id. 
