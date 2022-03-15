@@ -20,9 +20,9 @@ In this project I modified starter code to create an application that can be use
 
 ## Application 
 
-## Landing Page
+### Landing Page
 ![Screenshot of Landing Page](./Assets/landing-page.png?raw=true)
-## Notes Page
+### Notes Page
 ![Screenshot of Notes Page](./Assets/notes-page.png?raw=true)
 
 ### Link to Deployed Application
