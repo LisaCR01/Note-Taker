@@ -29,6 +29,6 @@ In this project I modified starter code to create an application that can be use
 [Link to Heroku Deployed Application](https://limitless-brook-10698.herokuapp.com/)
 
 ## Contact Information
-[Email](mailto:lcrgunn@gmail.com)
-[Github](https://github.com/LisaCR01)
-[LinkedIn](https://www.linkedin.com/in/LisaCR01)
+* [Email](mailto:lcrgunn@gmail.com)
+* [Github](https://github.com/LisaCR01)
+* [LinkedIn](https://www.linkedin.com/in/LisaCR01)
