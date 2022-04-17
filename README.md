@@ -1,5 +1,5 @@
 # Note Taker
-In this project I modified starter code to create an application that can be used to write and save notes. The purpose of this project is to highlight the use of: middleware, routes and express. Along with this I deployed this application through the use heroku.
+In this project I modified starter code to create an application that can be used to write and save notes. The motivation behind this application is that keeping organized is key to being a successful worker, and a note taking application helps keep someone on top of their work. The purpose of this project is to highlight the use of: middleware, routes and express. Along with this I deployed this application through the use heroku.
 
 ## Technologies Used
 * Express.js 
